@@ -192,6 +192,7 @@ person: 99%
 handbag: 60%
 person: 28%
 
+Yolo-V4 is faster and nicer, is not it?
 
 ## Credits
 ---
