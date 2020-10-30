@@ -13,7 +13,7 @@ Get detections on a single pass.
 2. Run Convolutional Network to get detections.
 3. Filter the output by a Non-max supression algorithm (to remove multiple detections of the same object)
 
-![yolo-step](https://github.com/Foroozani/Object_detect_YOLO3-4/blob/main/images/yolo-steps.png)
+
 Architecture (training phase):
 
  -   Input size: 448 x 448
@@ -167,13 +167,12 @@ wget https://pjreddie.com/media/files/yolov3.weights
 
 #Easy!Done, You can make a your own image 
 ```
-![yolo-step](https://github.com/Foroozani/Object_detect_YOLO3-4/blob/main/images/predictions_yolo3.png)
+
 
 
 Here is repositories for **YOLO V4** [darknet](https://github.com/AlexeyAB/darknet). 
 ```bash 
 git clone https://github.com/AlexeyAB/darknet.git
-
 ```
 Download `yolov4.weights` file 245 MB (https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_optimal/yolov4.weights). 
 
@@ -188,7 +187,9 @@ to have a video you must use GPU:
 ```bash 
 ./darknet detector demo cfg/coco.data cfg/yolov4.cfg yolov4.weights data/***.mp4
 ```
-Here is the output of muy picture 
+![YOLO-V3](https://github.com/Foroozani/Object_detect_YOLO3-4/blob/main/images/predictions_yolo4.jpg)
+
+Here is the output of my image
 data/4.JPG: Predicted in 1711.256000 milli-seconds.
 zebra: 100%
 person: 99%
