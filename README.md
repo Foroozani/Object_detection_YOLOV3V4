@@ -13,7 +13,7 @@ Get detections on a single pass.
 2. Run Convolutional Network to get detections.
 3. Filter the output by a Non-max supression algorithm (to remove multiple detections of the same object)
 
-![yolo-step](yolo-steps.png)
+![yolo-step](https://github.com/Foroozani/Object_detect_YOLO3-4/blob/main/images/yolo-steps.png)
 Architecture (training phase):
 
  -   Input size: 448 x 448
@@ -37,16 +37,7 @@ If there is an object in a cell, we decide which object by finding the biggest p
 - So, we need to use non-max supression to filter the results.
 - Final detections are obtained by using thresholding and non-max supression.
 
-![](FilterResults.png)
-
-
-
-
-
-
-
-
-
+![](https://github.com/Foroozani/Object_detect_YOLO3-4/blob/main/images/FilterResults.png)
 
 
 
@@ -174,10 +165,12 @@ wget https://pjreddie.com/media/files/yolov3.weights
 #Then run the detector!
 ./darknet detect cfg/yolov3.cfg yolov3.weights data/dog.jpg
 
-#Easy!Done
+#Easy!Done, You can make a your own image 
 ```
+![yolo-step](https://github.com/Foroozani/Object_detect_YOLO3-4/blob/main/images/predictions_yolo3.png)
 
-Here is repo for YOLO V4. 
+
+Here is repositories for **YOLO V4** [darknet](https://github.com/AlexeyAB/darknet). 
 ```bash 
 git clone https://github.com/AlexeyAB/darknet.git
 
@@ -201,3 +194,9 @@ zebra: 100%
 person: 99%
 handbag: 60%
 person: 28%
+
+
+## Credits
+---
+Original Code: https://github.com/pjreddie/darknet
+Site: https://pjreddie.com/darknet/yolo/
