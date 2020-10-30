@@ -1,7 +1,3 @@
-# Object_detect_YOLO3-4
-
-
-
 # Object_detect_YOLO V3 and V4
 
 ## (Neural Networks for object detection)
@@ -167,7 +163,7 @@ wget https://pjreddie.com/media/files/yolov3.weights
 
 #Easy!Done, You can make a your own image 
 ```
-
+![](https://github.com/Foroozani/Object_detect_YOLO3-4/blob/main/images/predictions_v3.jpg)
 
 
 Here is repositories for **YOLO V4** [darknet](https://github.com/AlexeyAB/darknet). 
@@ -200,4 +196,5 @@ person: 28%
 ## Credits
 ---
 Original Code: https://github.com/pjreddie/darknet
+
 Site: https://pjreddie.com/darknet/yolo/
