@@ -1,4 +1,5 @@
 # Object_detect_YOLO V3 and V4
+Installation of CUDA and its requirement to run YOLOv3-v4
 
 ## (Neural Networks for object detection)
 ---
