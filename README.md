@@ -2,7 +2,7 @@
 
 [![](https://img.shields.io/badge/NVIDIA-GTX1050-76B900?style=for-the-badge&logo=nvidia&logoColor=white)](https://developer.nvidia.com/cuda-downloads)
 [![](https://img.shields.io/badge/Ubuntu18.04-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)]()
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+[![](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)(https://www.python.org/)
 
 
 Installation of CUDA and its requirement to run YOLOv3-v4
