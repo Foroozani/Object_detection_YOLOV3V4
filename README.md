@@ -8,14 +8,13 @@
 Installation of CUDA and its requirement to run YOLOv3-v4
 
 ## (Neural Networks for object detection)
----
+
 YOLO: You only look once (YOLO) is a state-of-the-art, real-time object detection system.
 
 Get detections on a single pass.
 1. Resize the input image (e.g., 448x448).
 2. Run Convolutional Network to get detections.
 3. Filter the output by a Non-max supression algorithm (to remove multiple detections of the same object)
-
 
 Architecture (training phase):
 
@@ -28,7 +27,6 @@ Output size: 30 x 7 x 7:
 
 - Two bounding box definitions, containing x, y, height, width andconfidence. (2 x 5)
 - Class probabilities, relevant if only object confidence is high enough. (20)
-
 
 **Box probabilities:**
 
@@ -43,13 +41,9 @@ If there is an object in a cell, we decide which object by finding the biggest p
 ![](https://github.com/Foroozani/Object_detect_YOLO3-4/blob/main/images/FilterResults.png)
 
 
-
-
 For more information see the [Darknet: Open Source Neural Networks in C](https://pjreddie.com/darknet/) 
 
 source code:  https://github.com/AlexeyAB/darknet
-
-
 
 # Description
 Here, I guide you step by step with a bare machine to get a real time object detector with YOLO v3 and V4.
